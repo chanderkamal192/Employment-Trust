@@ -489,9 +489,15 @@ app.listen(
             "================================"
         );
 
-        console.log(
-            Open: http://localhost:${PORT}
-        );
+  // ==========================================
+// START SERVER
+// ==========================================
 
-    }
-);
+app.listen(PORT, function () {
+
+    console.log("================================");
+    console.log("Employment Trust Server Started");
+    console.log("================================");
+    console.log("Open: http://localhost:" + PORT);
+
+});
