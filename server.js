@@ -33,11 +33,7 @@ app.use(
 
 // Serve files from public folder
 
-app.use(
-    express.static(
-        path.join(__dirname, "public")
-    )
-);
+app.use(express.static(__dirname));
 
 
 // ==========================================
